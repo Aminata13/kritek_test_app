@@ -7,11 +7,23 @@
 /public/bundles/
 /var/
 /vendor/
+
+/app/bootstrap.php.cache
+/app/cache/*
+/app/config/parameters.yml
+/app/logs/*
+!.app/cache/.gitkeep
+!.app/logs/.gitkeep
+/app/phpunit.xml
+/build/
+/bin/
+/composer.phar
 ###< symfony/framework-bundle ###
 
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
 /public/build/
+/web/bundles/
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
